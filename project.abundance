@@ -4,6 +4,12 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "Surfboard",
+  "ioValues": [
+    {
+      "name": "Input",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -20,8 +26,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.24843096234309622,
-      "y": 0.5620437956204379,
+      "x": 0.2034518828451883,
+      "y": 0.6155717761557178,
       "uniqueID": "id-4",
       "ioValues": [
         {
@@ -46,7 +52,7 @@
         },
         {
           "name": "height",
-          "ioValue": 100,
+          "ioValue": 10,
           "currentEquation": "100"
         }
       ]
@@ -163,8 +169,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.3603556485355649,
-      "y": 0.732360097323601,
+      "x": 0.39644351464435146,
+      "y": 0.6666666666666666,
       "uniqueID": "id-20",
       "ioValues": [
         {
@@ -244,6 +250,12 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.34793187347931875,
+      "uniqueID": "id-66"
     }
   ],
   "allConnectors": [
@@ -281,6 +293,11 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-54",
       "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-66",
+      "ap2ID": "id-8"
     }
   ],
   "unitsKey": "MM",
