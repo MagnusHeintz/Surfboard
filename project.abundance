@@ -1,13 +1,175 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Surfboard",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Surfboard",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "RegularPolygon",
+      "x": 0.35251046025104604,
+      "y": 0.4330900243309002,
+      "uniqueID": "id-4",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 25
+        },
+        {
+          "name": "diameter",
+          "ioValue": 600
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.575836820083682,
+      "y": 0.5547445255474452,
+      "uniqueID": "id-8",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 80
+        }
+      ]
+    },
+    {
+      "atomType": "ShrinkWrap",
+      "x": 0.4780334728033473,
+      "y": 0.4282238442822384,
+      "uniqueID": "id-16",
+      "name": "Shrink Wrap",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "polysides-300-25",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "rectangle-1800-600",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.3603556485355649,
+      "y": 0.732360097323601,
+      "uniqueID": "id-20",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 1800,
+          "currentEquation": "1800"
+        },
+        {
+          "name": "y length",
+          "ioValue": 600
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-4",
+      "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-8",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-16",
+      "ap2ID": "id-8"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-20",
+      "ap2ID": "id-16"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
