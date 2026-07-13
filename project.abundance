@@ -88,7 +88,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-circle-250--900-0-0",
+            "geometry": "move-circle-250--1000-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -181,8 +181,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -900,
-          "currentEquation": "-900"
+          "ioValue": -1000
         },
         {
           "name": "yDist",
