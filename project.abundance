@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.897489539748954,
-      "y": 0.5547445255474452,
+      "x": 0.8676778242677824,
+      "y": 0.6204379562043796,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -43,8 +43,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 12000,
-          "currentEquation": "12000"
+          "ioValue": 11000,
+          "currentEquation": "11000"
         }
       ]
     },
@@ -60,13 +60,13 @@
         },
         {
           "name": "xDist",
-          "ioValue": 2200,
-          "currentEquation": "2200"
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
-          "ioValue": 5700,
-          "currentEquation": "5700"
+          "ioValue": 5400,
+          "currentEquation": "5400"
         },
         {
           "name": "zDist",
@@ -82,15 +82,15 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 12000,
-          "currentEquation": "12000"
+          "ioValue": 11000,
+          "currentEquation": "11000"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.3357740585774059,
-      "y": 0.35279805352798055,
+      "x": 0.3368200836820084,
+      "y": 0.34063260340632606,
       "uniqueID": "id-270",
       "ioValues": [
         {
@@ -103,8 +103,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": -5700,
-          "currentEquation": "-5700"
+          "ioValue": -5400,
+          "currentEquation": "-5400"
         },
         {
           "name": "zDist",
@@ -146,7 +146,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "intersect-move-circle-6000-0--5700-0-move-circle-6000-2200-5700-0",
+            "geometry": "intersect-move-circle-5500-0--5400-0-move-circle-5500-0-5400-0",
             "tags": [],
             "color": "#aad7f2",
             "plane": {
