@@ -73,7 +73,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-circle-300-1200-0-0",
+            "geometry": "move-circle-300-300-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -250,7 +250,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 1200
+          "ioValue": 300,
+          "currentEquation": "300"
         },
         {
           "name": "yDist",
@@ -264,8 +265,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2557531380753138,
-      "y": 0.15085158150851583,
+      "x": 0.2928870292887029,
+      "y": 0.19951338199513383,
       "uniqueID": "id-54",
       "ioValues": [
         {
@@ -464,6 +465,44 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.7573221757322175,
+      "y": 0.6982968369829684,
+      "uniqueID": "id-154",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 50,
+          "currentEquation": "50"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5538702928870293,
+      "y": 0.7177615571776156,
+      "uniqueID": "id-157",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 700,
+          "currentEquation": "700"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -536,6 +575,11 @@
       "ap2Name": "Shape 7",
       "ap1ID": "id-147",
       "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-154",
+      "ap2ID": "id-157"
     }
   ],
   "unitsKey": "MM",
