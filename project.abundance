@@ -7,15 +7,16 @@
   "ioValues": [
     {
       "name": "Input",
-      "ioValue": 10
+      "ioValue": 200,
+      "currentEquation": "200"
     }
   ],
   "topLevel": true,
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.98,
-      "y": 0.5,
+      "x": 0.9738493723849372,
+      "y": 0.4744525547445255,
       "uniqueID": "id-2",
       "ioValues": [
         {
@@ -26,8 +27,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.2034518828451883,
-      "y": 0.6155717761557178,
+      "x": 0.11087866108786612,
+      "y": 0.4087591240875912,
       "uniqueID": "id-4",
       "ioValues": [
         {
@@ -42,8 +43,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.575836820083682,
-      "y": 0.5547445255474452,
+      "x": 0.26935146443514646,
+      "y": 0.8102189781021898,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -52,15 +53,14 @@
         },
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "100"
+          "ioValue": 200
         }
       ]
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.5313807531380753,
-      "y": 0.24330900243309,
+      "x": 0.5031380753138075,
+      "y": 0.2944038929440389,
       "uniqueID": "id-16",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -163,14 +163,14 @@
         },
         {
           "name": "Shape 4",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
     },
     {
       "atomType": "Rectangle",
-      "x": 0.39644351464435146,
-      "y": 0.6666666666666666,
+      "x": 0.08682008368200837,
+      "y": 0.5912408759124088,
       "uniqueID": "id-20",
       "ioValues": [
         {
@@ -185,8 +185,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4231171548117155,
-      "y": 0.4209245742092457,
+      "x": 0.3127615062761506,
+      "y": 0.34063260340632606,
       "uniqueID": "id-37",
       "ioValues": [
         {
@@ -195,8 +195,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 1200,
-          "currentEquation": "1200"
+          "ioValue": 1200
         },
         {
           "name": "yDist",
@@ -210,26 +209,24 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.2139121338912134,
-      "y": 0.32116788321167883,
+      "x": 0.10251046025104602,
+      "y": 0.1386861313868613,
       "uniqueID": "id-49",
       "ioValues": [
         {
           "name": "number of sides",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 25
         },
         {
           "name": "diameter",
-          "ioValue": 600,
-          "currentEquation": "600"
+          "ioValue": 600
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.3106694560669456,
-      "y": 0.22627737226277375,
+      "x": 0.252092050209205,
+      "y": 0.1970802919708029,
       "uniqueID": "id-54",
       "ioValues": [
         {
@@ -238,8 +235,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -1000,
-          "currentEquation": "-1000"
+          "ioValue": -1000
         },
         {
           "name": "yDist",
@@ -254,8 +250,9 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.34793187347931875,
-      "uniqueID": "id-66"
+      "y": 0.9294403892944039,
+      "uniqueID": "id-66",
+      "type": "number"
     }
   ],
   "allConnectors": [
