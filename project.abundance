@@ -125,7 +125,7 @@
         },
         {
           "name": "Shape 3",
-          "ioValue": null
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
     },
@@ -137,8 +137,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 1800,
-          "currentEquation": "1800"
+          "ioValue": 1800
         },
         {
           "name": "y length",
