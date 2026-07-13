@@ -4,13 +4,6 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "Surfboard",
-  "ioValues": [
-    {
-      "name": "Input",
-      "ioValue": 200,
-      "currentEquation": "200"
-    }
-  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -26,25 +19,9 @@
       ]
     },
     {
-      "atomType": "RegularPolygon",
-      "x": 0.11087866108786612,
-      "y": 0.4087591240875912,
-      "uniqueID": "id-4",
-      "ioValues": [
-        {
-          "name": "number of sides",
-          "ioValue": 25
-        },
-        {
-          "name": "diameter",
-          "ioValue": 600
-        }
-      ]
-    },
-    {
       "atomType": "Extrude",
-      "x": 0.26935146443514646,
-      "y": 0.8102189781021898,
+      "x": 0.6668410041841004,
+      "y": 0.2871046228710462,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -53,14 +30,15 @@
         },
         {
           "name": "height",
-          "ioValue": 200
+          "ioValue": 100,
+          "currentEquation": "100"
         }
       ]
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.5031380753138075,
-      "y": 0.2944038929440389,
+      "x": 0.5010460251046025,
+      "y": 0.2895377128953771,
       "uniqueID": "id-16",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -69,10 +47,6 @@
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "Shape 2",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
           "name": "Shape 3",
           "ioValue": "__GEOMETRY_INPUT__"
         },
@@ -83,7 +57,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-polysides-300-25-1200-0-0",
+            "geometry": "move-circle-300-1200-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -104,40 +78,13 @@
               ]
             },
             "color": "#aad7f2",
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": "rectangle-1800-600",
-            "dimension": "2D",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
             "bom": []
           }
         },
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "move-polysides-300-25--1000-0-0",
+            "geometry": "move-circle-300--1000-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -164,22 +111,6 @@
         {
           "name": "Shape 4",
           "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.08682008368200837,
-      "y": 0.5912408759124088,
-      "uniqueID": "id-20",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 1800
-        },
-        {
-          "name": "y length",
-          "ioValue": 600
         }
       ]
     },
@@ -208,25 +139,9 @@
       ]
     },
     {
-      "atomType": "RegularPolygon",
-      "x": 0.10251046025104602,
-      "y": 0.1386861313868613,
-      "uniqueID": "id-49",
-      "ioValues": [
-        {
-          "name": "number of sides",
-          "ioValue": 25
-        },
-        {
-          "name": "diameter",
-          "ioValue": 600
-        }
-      ]
-    },
-    {
       "atomType": "Move",
-      "x": 0.252092050209205,
-      "y": 0.1970802919708029,
+      "x": 0.2567991631799163,
+      "y": 0.17761557177615572,
       "uniqueID": "id-54",
       "ioValues": [
         {
@@ -248,19 +163,33 @@
       ]
     },
     {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.9294403892944039,
-      "uniqueID": "id-66",
-      "type": "number"
+      "atomType": "Circle",
+      "x": 0.10251046025104602,
+      "y": 0.16788321167883213,
+      "uniqueID": "id-104",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 600,
+          "currentEquation": "600"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.12918410041841003,
+      "y": 0.5231143552311436,
+      "uniqueID": "id-107",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 600,
+          "currentEquation": "600"
+        }
+      ]
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-4",
-      "ap2ID": "id-37"
-    },
     {
       "ap2Name": "number or geometry",
       "ap1ID": "id-8",
@@ -272,19 +201,9 @@
       "ap2ID": "id-8"
     },
     {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-20",
-      "ap2ID": "id-16"
-    },
-    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-37",
       "ap2ID": "id-16"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-49",
-      "ap2ID": "id-54"
     },
     {
       "ap2Name": "Shape 3",
@@ -292,9 +211,14 @@
       "ap2ID": "id-16"
     },
     {
-      "ap2Name": "height",
-      "ap1ID": "id-66",
-      "ap2ID": "id-8"
+      "ap2Name": "geometry",
+      "ap1ID": "id-104",
+      "ap2ID": "id-54"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-107",
+      "ap2ID": "id-37"
     }
   ],
   "unitsKey": "MM",
