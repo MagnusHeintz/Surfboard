@@ -20,8 +20,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.35251046025104604,
-      "y": 0.4330900243309002,
+      "x": 0.24843096234309622,
+      "y": 0.5620437956204379,
       "uniqueID": "id-4",
       "ioValues": [
         {
@@ -46,14 +46,15 @@
         },
         {
           "name": "height",
-          "ioValue": 80
+          "ioValue": 100,
+          "currentEquation": "100"
         }
       ]
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.4780334728033473,
-      "y": 0.4282238442822384,
+      "x": 0.5313807531380753,
+      "y": 0.24330900243309,
       "uniqueID": "id-16",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -70,9 +71,13 @@
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
+          "name": "Shape 4",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "polysides-300-25",
+            "geometry": "move-polysides-300-25-1200-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -125,7 +130,34 @@
         },
         {
           "name": "Shape 3",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "ioValue": {
+            "geometry": "move-polysides-300-25--1000-0-0",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
         }
       ]
     },
@@ -144,13 +176,81 @@
           "ioValue": 600
         }
       ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4231171548117155,
+      "y": 0.4209245742092457,
+      "uniqueID": "id-37",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 1200,
+          "currentEquation": "1200"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "RegularPolygon",
+      "x": 0.2139121338912134,
+      "y": 0.32116788321167883,
+      "uniqueID": "id-49",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 25,
+          "currentEquation": "25"
+        },
+        {
+          "name": "diameter",
+          "ioValue": 600,
+          "currentEquation": "600"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3106694560669456,
+      "y": 0.22627737226277375,
+      "uniqueID": "id-54",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -1000,
+          "currentEquation": "-1000"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "Shape 1",
+      "ap2Name": "geometry",
       "ap1ID": "id-4",
-      "ap2ID": "id-16"
+      "ap2ID": "id-37"
     },
     {
       "ap2Name": "number or geometry",
@@ -165,6 +265,21 @@
     {
       "ap2Name": "Shape 2",
       "ap1ID": "id-20",
+      "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-37",
+      "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-49",
+      "ap2ID": "id-54"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-54",
       "ap2ID": "id-16"
     }
   ],
