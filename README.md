@@ -7,6 +7,7 @@
 ## Inputs
 
 - **Input** (undefined)
+- **Input_1** (number)
 
 
 
