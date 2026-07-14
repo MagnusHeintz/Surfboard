@@ -9,6 +9,8 @@
 - **Radie_for_rails** (undefined)
 - **Bottom_radie** (number)
 - **Bottom_cut** (number)
+- **Top_radie** (number)
+- **Top_cut** (number)
 
 
 
