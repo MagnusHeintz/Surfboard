@@ -6,8 +6,8 @@
 
 ## Inputs
 
-- **Input** (undefined)
-- **Input_1** (number)
+- **Radie_for_rails** (undefined)
+- **Bottom_radie** (number)
 
 
 
