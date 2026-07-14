@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "Input",
-      "ioValue": 10
+      "ioValue": 3000,
+      "currentEquation": "3000"
     }
   ],
   "topLevel": true,
@@ -37,31 +38,6 @@
         {
           "name": "height",
           "ioValue": 100
-        }
-      ]
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.20920502092050208,
-      "y": 0.7347931873479319,
-      "uniqueID": "id-258",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 3000
-        }
-      ]
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.17102510460251044,
-      "y": 0.16058394160583941,
-      "uniqueID": "id-267",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 3000,
-          "currentEquation": "3000"
         }
       ]
     },
@@ -202,6 +178,30 @@
         }
       ],
       "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.18985355648535565,
+      "y": 0.16058394160583941,
+      "uniqueID": "id-406",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 3000
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.1684100418410042,
+      "y": 0.6423357664233577,
+      "uniqueID": "id-409",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 3000
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -209,16 +209,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-8",
       "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-258",
-      "ap2ID": "id-382"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-267",
-      "ap2ID": "id-270"
     },
     {
       "ap2Name": "geometry1",
@@ -236,9 +226,29 @@
       "ap2ID": "id-8"
     },
     {
+      "ap2Name": "diameter",
+      "ap1ID": "id-313",
+      "ap2ID": "id-406"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-313",
+      "ap2ID": "id-409"
+    },
+    {
       "ap2Name": "geometry2",
       "ap1ID": "id-382",
       "ap2ID": "id-280"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-406",
+      "ap2ID": "id-270"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-409",
+      "ap2ID": "id-382"
     }
   ],
   "unitsKey": "MM",
