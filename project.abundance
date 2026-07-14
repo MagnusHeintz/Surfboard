@@ -4,6 +4,13 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "Surfboard",
+  "ioValues": [
+    {
+      "name": "Input",
+      "ioValue": 3000,
+      "currentEquation": "3000"
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -43,7 +50,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 11000,
+          "ioValue": 3000,
           "currentEquation": "11000"
         }
       ]
@@ -82,7 +89,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 11000,
+          "ioValue": 3000,
           "currentEquation": "11000"
         }
       ]
@@ -146,9 +153,9 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "intersect-move-circle-5500-0--5400-0-move-circle-5500-0-5400-0",
+            "geometry": [],
+            "dimension": "2D",
             "tags": [],
-            "color": "#aad7f2",
             "plane": {
               "origin": [
                 0,
@@ -166,8 +173,9 @@
                 1
               ]
             },
+            "color": "#aad7f2",
             "bom": [],
-            "dimension": "2D"
+            "nonReplicadSerialized": {}
           }
         },
         {
@@ -175,6 +183,12 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-313"
     }
   ],
   "allConnectors": [
@@ -212,6 +226,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-293",
       "ap2ID": "id-8"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-313",
+      "ap2ID": "id-267"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-313",
+      "ap2ID": "id-258"
     }
   ],
   "unitsKey": "MM",
