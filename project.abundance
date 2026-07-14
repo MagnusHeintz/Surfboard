@@ -389,7 +389,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17460
+          "ioValue": 17487
         },
         {
           "name": "zDist",
@@ -417,14 +417,14 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.5502092050209205,
-      "y": 0.08515815085158152,
+      "x": 0.5554393305439331,
+      "y": 0.0632603406326034,
       "uniqueID": "id-468",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 36000,
-          "currentEquation": "36000"
+          "ioValue": 37000,
+          "currentEquation": "37000"
         }
       ]
     },
@@ -455,8 +455,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7269874476987448,
-      "y": 0.0827250608272506,
+      "x": 0.7353556485355648,
+      "y": 0.10462287104622872,
       "uniqueID": "id-477",
       "ioValues": [
         {
@@ -469,7 +469,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17980
+          "ioValue": 1800
         },
         {
           "name": "zDist",
@@ -479,25 +479,9 @@
       ]
     },
     {
-      "atomType": "Difference",
-      "x": 0.8007322175732217,
-      "y": 0.2141119221411192,
-      "uniqueID": "id-487",
-      "ioValues": [
-        {
-          "name": "retain",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "remove",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
       "atomType": "Intersection",
-      "x": 0.8828451882845187,
-      "y": 0.4598540145985402,
+      "x": 0.8901673640167365,
+      "y": 0.4282238442822384,
       "uniqueID": "id-491",
       "ioValues": [
         {
@@ -516,6 +500,22 @@
       "y": 0.3917274939172749,
       "uniqueID": "id-495",
       "name": "Input_1"
+    },
+    {
+      "atomType": "Intersection",
+      "x": 0.7965481171548118,
+      "y": 0.18248175182481752,
+      "uniqueID": "id-498",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -600,9 +600,9 @@
       "ap2ID": "id-454"
     },
     {
-      "ap2Name": "remove",
+      "ap2Name": "geometry2",
       "ap1ID": "id-454",
-      "ap2ID": "id-487"
+      "ap2ID": "id-498"
     },
     {
       "ap2Name": "geometry1",
@@ -620,14 +620,9 @@
       "ap2ID": "id-477"
     },
     {
-      "ap2Name": "retain",
+      "ap2Name": "geometry1",
       "ap1ID": "id-477",
-      "ap2ID": "id-487"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-487",
-      "ap2ID": "id-460"
+      "ap2ID": "id-498"
     },
     {
       "ap2Name": "number or geometry",
@@ -638,6 +633,11 @@
       "ap2Name": "diameter",
       "ap1ID": "id-495",
       "ap2ID": "id-445"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-498",
+      "ap2ID": "id-460"
     }
   ],
   "unitsKey": "MM",
