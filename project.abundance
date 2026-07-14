@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "Input",
-      "ioValue": 2326,
-      "currentEquation": "2326"
+      "ioValue": 4500,
+      "currentEquation": "4500"
     }
   ],
   "topLevel": true,
@@ -44,7 +44,7 @@
     {
       "atomType": "Move",
       "x": 0.34675732217573224,
-      "y": 0.16788321167883213,
+      "y": 0.1654501216545012,
       "uniqueID": "id-270",
       "ioValues": [
         {
@@ -53,7 +53,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 1050,
+          "currentEquation": "1050"
         },
         {
           "name": "yDist",
@@ -100,7 +101,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "intersect-move-circle-1163-0-0-0-move-circle-1163-552-500-0",
+            "geometry": "intersect-move-circle-2250-1050-0-0-move-circle-2250--1050--300-0",
             "tags": [],
             "color": "#aad7f2",
             "plane": {
@@ -148,12 +149,13 @@
         },
         {
           "name": "xDist",
-          "ioValue": 552
+          "ioValue": -1050,
+          "currentEquation": "-1050"
         },
         {
           "name": "yDist",
-          "ioValue": 500,
-          "currentEquation": "500"
+          "ioValue": -300,
+          "currentEquation": "-300"
         },
         {
           "name": "zDist",
@@ -181,25 +183,25 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.18985355648535565,
-      "y": 0.16058394160583941,
+      "x": 0.19194560669456068,
+      "y": 0.1630170316301703,
       "uniqueID": "id-406",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 2326
+          "ioValue": 4500
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.1684100418410042,
-      "y": 0.6423357664233577,
+      "x": 0.17259414225941422,
+      "y": 0.6520681265206812,
       "uniqueID": "id-409",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 2326
+          "ioValue": 4500
         }
       ]
     }
