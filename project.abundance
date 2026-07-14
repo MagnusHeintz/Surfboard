@@ -9,6 +9,10 @@
       "name": "Input",
       "ioValue": 9000,
       "currentEquation": "9000"
+    },
+    {
+      "name": "Input_1",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -337,15 +341,15 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 35000,
+          "ioValue": 10,
           "currentEquation": "35000"
         }
       ]
     },
     {
       "atomType": "Rotate",
-      "x": 0.6600418410041841,
-      "y": 0.14841849148418493,
+      "x": 0.6401673640167364,
+      "y": 0.11192214111922141,
       "uniqueID": "id-448",
       "ioValues": [
         {
@@ -370,8 +374,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7468619246861925,
-      "y": 0.14598540145985403,
+      "x": 0.7034518828451883,
+      "y": 0.09245742092457421,
       "uniqueID": "id-454",
       "ioValues": [
         {
@@ -385,7 +389,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17488
+          "ioValue": 17570
         },
         {
           "name": "zDist",
@@ -396,8 +400,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.8765690376569039,
-      "y": 0.17518248175182483,
+      "x": 0.8671548117154811,
+      "y": 0.2116788321167883,
       "uniqueID": "id-460",
       "ioValues": [
         {
@@ -412,22 +416,6 @@
       ]
     },
     {
-      "atomType": "Difference",
-      "x": 0.8666317991631799,
-      "y": 0.34793187347931875,
-      "uniqueID": "id-464",
-      "ioValues": [
-        {
-          "name": "retain",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "remove",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
       "atomType": "Circle",
       "x": 0.5821129707112971,
       "y": 0.3284671532846716,
@@ -435,8 +423,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 40000,
-          "currentEquation": "40000"
+          "ioValue": 36000,
+          "currentEquation": "36000"
         }
       ]
     },
@@ -467,8 +455,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7458158995815899,
-      "y": 0.34063260340632606,
+      "x": 0.7494769874476988,
+      "y": 0.3260340632603406,
       "uniqueID": "id-477",
       "ioValues": [
         {
@@ -481,8 +469,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17448,
-          "currentEquation": "17448"
+          "ioValue": 17980
         },
         {
           "name": "zDist",
@@ -506,13 +493,36 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Intersection",
+      "x": 0.8828451882845187,
+      "y": 0.4598540145985402,
+      "uniqueID": "id-491",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.3917274939172749,
+      "uniqueID": "id-495",
+      "name": "Input_1"
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "retain",
+      "ap2Name": "geometry2",
       "ap1ID": "id-8",
-      "ap2ID": "id-464"
+      "ap2ID": "id-491"
     },
     {
       "ap2Name": "geometry1",
@@ -595,14 +605,9 @@
       "ap2ID": "id-487"
     },
     {
-      "ap2Name": "remove",
+      "ap2Name": "geometry1",
       "ap1ID": "id-460",
-      "ap2ID": "id-464"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-464",
-      "ap2ID": "id-2"
+      "ap2ID": "id-491"
     },
     {
       "ap2Name": "geometry",
@@ -618,6 +623,21 @@
       "ap2Name": "retain",
       "ap1ID": "id-477",
       "ap2ID": "id-487"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-487",
+      "ap2ID": "id-460"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-491",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-495",
+      "ap2ID": "id-445"
     }
   ],
   "unitsKey": "MM",
