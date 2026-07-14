@@ -37,7 +37,7 @@
         },
         {
           "name": "height",
-          "ioValue": 100
+          "ioValue": 120
         }
       ]
     },
@@ -337,8 +337,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 8500,
-          "currentEquation": "8500"
+          "ioValue": 30000,
+          "currentEquation": "30000"
         }
       ]
     },
@@ -385,7 +385,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 4600
+          "ioValue": 15000
         },
         {
           "name": "zDist",
