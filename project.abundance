@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "Input",
-      "ioValue": 3000,
-      "currentEquation": "3000"
+      "ioValue": 2326,
+      "currentEquation": "2326"
     }
   ],
   "topLevel": true,
@@ -57,8 +57,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 1300,
-          "currentEquation": "1300"
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -100,7 +100,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "intersect-move-circle-1500-0-1300-0-move-circle-1500-0--1300-0",
+            "geometry": "intersect-move-circle-1163-0-0-0-move-circle-1163-552-500-0",
             "tags": [],
             "color": "#aad7f2",
             "plane": {
@@ -148,12 +148,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 552
         },
         {
           "name": "yDist",
-          "ioValue": -1300,
-          "currentEquation": "-1300"
+          "ioValue": 500,
+          "currentEquation": "500"
         },
         {
           "name": "zDist",
@@ -187,7 +187,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 3000
+          "ioValue": 2326
         }
       ]
     },
@@ -199,7 +199,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 3000
+          "ioValue": 2326
         }
       ]
     }
