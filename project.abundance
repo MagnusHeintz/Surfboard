@@ -43,8 +43,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.32792887029288703,
-      "y": 0.17518248175182483,
+      "x": 0.32897489539748953,
+      "y": 0.10948905109489052,
       "uniqueID": "id-270",
       "ioValues": [
         {
@@ -69,8 +69,8 @@
     },
     {
       "atomType": "Intersection",
-      "x": 0.5287656903765691,
-      "y": 0.3722627737226278,
+      "x": 0.4691422594142259,
+      "y": 0.1922141119221411,
       "uniqueID": "id-280",
       "ioValues": [
         {
@@ -86,13 +86,13 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "y": 0.14598540145985403,
       "uniqueID": "id-313"
     },
     {
       "atomType": "Move",
-      "x": 0.3739539748953975,
-      "y": 0.33576642335766427,
+      "x": 0.3425732217573222,
+      "y": 0.2871046228710462,
       "uniqueID": "id-382",
       "ioValues": [
         {
@@ -136,8 +136,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.19822175732217573,
-      "y": 0.17031630170316303,
+      "x": 0.20554393305439328,
+      "y": 0.09975669099756691,
       "uniqueID": "id-406",
       "ioValues": [
         {
@@ -148,8 +148,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.19926778242677823,
-      "y": 0.3746958637469586,
+      "x": 0.21129707112970714,
+      "y": 0.25790754257907544,
       "uniqueID": "id-409",
       "ioValues": [
         {
@@ -198,14 +198,14 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.13964435146443516,
-      "y": 0.829683698296837,
+      "x": 0.13912133891213388,
+      "y": 0.8321167883211679,
       "uniqueID": "id-421",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 250,
+          "currentEquation": "250"
         }
       ]
     },
@@ -236,8 +236,8 @@
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.6265690376569037,
-      "y": 0.6593673965936739,
+      "x": 0.5993723849372384,
+      "y": 0.6399026763990268,
       "uniqueID": "id-430",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -246,15 +246,11 @@
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "Shape 2",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
           "name": "Shape 4",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 5",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
@@ -285,7 +281,7 @@
           }
         },
         {
-          "name": "Shape 2",
+          "name": "Shape 4",
           "ioValue": {
             "geometry": "move-circle-250-2350-0-0",
             "dimension": "2D",
@@ -312,35 +308,24 @@
           }
         },
         {
-          "name": "Shape 3",
-          "ioValue": {
-            "geometry": "move-circle-100-2850-0-0",
-            "dimension": "2D",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": []
-          }
+          "name": "Shape 5",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.7024058577405858,
+      "y": 0.6812652068126521,
+      "uniqueID": "id-441",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "Shape 4",
-          "ioValue": null
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
     }
@@ -392,7 +377,7 @@
       "ap2ID": "id-415"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "Shape 4",
       "ap1ID": "id-415",
       "ap2ID": "id-430"
     },
@@ -402,13 +387,18 @@
       "ap2ID": "id-424"
     },
     {
-      "ap2Name": "Shape 3",
+      "ap2Name": "remove",
       "ap1ID": "id-424",
-      "ap2ID": "id-430"
+      "ap2ID": "id-441"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-430",
+      "ap2ID": "id-441"
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-430",
+      "ap1ID": "id-441",
       "ap2ID": "id-8"
     }
   ],
