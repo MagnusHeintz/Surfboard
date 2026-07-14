@@ -6,13 +6,13 @@
   "name": "Surfboard",
   "ioValues": [
     {
-      "name": "Input",
+      "name": "Radie_for_rails",
       "ioValue": 9000,
       "currentEquation": "9000"
     },
     {
-      "name": "Input_1",
-      "ioValue": 35072
+      "name": "Bottom_radie",
+      "ioValue": 35043
     }
   ],
   "topLevel": true,
@@ -91,7 +91,8 @@
       "atomType": "Input",
       "x": 0.025384615384615384,
       "y": 0.14598540145985403,
-      "uniqueID": "id-313"
+      "uniqueID": "id-313",
+      "name": "Radie_for_rails"
     },
     {
       "atomType": "Move",
@@ -341,7 +342,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 35072,
+          "ioValue": 35043,
           "currentEquation": "35000"
         }
       ]
@@ -389,7 +390,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17487
+          "ioValue": 17490
         },
         {
           "name": "zDist",
@@ -469,7 +470,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 1800
+          "ioValue": 18400,
+          "currentEquation": "18400"
         },
         {
           "name": "zDist",
@@ -499,7 +501,7 @@
       "x": 0.025384615384615384,
       "y": 0.3917274939172749,
       "uniqueID": "id-495",
-      "name": "Input_1"
+      "name": "Bottom_radie"
     },
     {
       "atomType": "Intersection",
