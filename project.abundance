@@ -16,17 +16,17 @@
     },
     {
       "name": "Bottom_cut",
-      "ioValue": 17433
+      "ioValue": 17438
     },
     {
       "name": "Top_radie",
-      "ioValue": 35900,
-      "currentEquation": "35900"
+      "ioValue": 49860,
+      "currentEquation": "49860"
     },
     {
       "name": "Top_cut",
-      "ioValue": 18000,
-      "currentEquation": "18000"
+      "ioValue": 25000,
+      "currentEquation": "25000"
     }
   ],
   "topLevel": true,
@@ -374,7 +374,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17433
+          "ioValue": 17438
         },
         {
           "name": "zDist",
@@ -390,7 +390,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 35900
+          "ioValue": 49860
         }
       ]
     },
@@ -434,7 +434,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 18000
+          "ioValue": 25000
         },
         {
           "name": "zDist",
