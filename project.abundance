@@ -11,11 +11,11 @@
     },
     {
       "name": "Bottom_radie",
-      "ioValue": 35000
+      "ioValue": 34997
     },
     {
       "name": "Bottom_cut",
-      "ioValue": 17500
+      "ioValue": 17463
     },
     {
       "name": "Top_radie",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Top_cut",
-      "ioValue": 17800
+      "ioValue": 17815
     }
   ],
   "topLevel": true,
@@ -42,8 +42,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.7740585774058578,
-      "y": 0.7712895377128954,
+      "x": 0.7222803347280335,
+      "y": 0.7980535279805353,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -326,7 +326,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 35000
+          "ioValue": 34997
         }
       ]
     },
@@ -370,7 +370,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17500
+          "ioValue": 17463
         },
         {
           "name": "zDist",
@@ -430,7 +430,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17800
+          "ioValue": 17815
         },
         {
           "name": "zDist",
@@ -486,8 +486,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6093096234309624,
-      "y": 0.1922141119221411,
+      "x": 0.6621338912133892,
+      "y": 0.31873479318734793,
       "uniqueID": "id-530",
       "ioValues": [
         {
@@ -513,13 +513,29 @@
       "y": 0.5230769230769231,
       "uniqueID": "id-537",
       "name": "Top_cut"
+    },
+    {
+      "atomType": "Intersection",
+      "x": 0.7986401673640167,
+      "y": 0.43795620437956206,
+      "uniqueID": "id-625",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry2",
       "ap1ID": "id-8",
-      "ap2ID": "id-2"
+      "ap2ID": "id-625"
     },
     {
       "ap2Name": "geometry1",
@@ -637,6 +653,11 @@
       "ap2ID": "id-530"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-530",
+      "ap2ID": "id-625"
+    },
+    {
       "ap2Name": "diameter",
       "ap1ID": "id-534",
       "ap2ID": "id-468"
@@ -645,6 +666,11 @@
       "ap2Name": "yDist",
       "ap1ID": "id-537",
       "ap2ID": "id-477"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-625",
+      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
