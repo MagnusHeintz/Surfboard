@@ -16,17 +16,16 @@
     },
     {
       "name": "Bottom_cut",
-      "ioValue": 17438
+      "ioValue": 17449
     },
     {
       "name": "Top_radie",
-      "ioValue": 49860,
-      "currentEquation": "49860"
+      "ioValue": 51850,
+      "currentEquation": "51850"
     },
     {
       "name": "Top_cut",
-      "ioValue": 25000,
-      "currentEquation": "25000"
+      "ioValue": 26013
     }
   ],
   "topLevel": true,
@@ -46,7 +45,7 @@
     {
       "atomType": "Extrude",
       "x": 0.7222803347280335,
-      "y": 0.7980535279805353,
+      "y": 0.8150851581508517,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -157,8 +156,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.02928870292887029,
-      "y": 0.7639902676399026,
+      "x": 0.11349372384937238,
+      "y": 0.75669099756691,
       "uniqueID": "id-412",
       "ioValues": [
         {
@@ -169,8 +168,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.09309623430962342,
-      "y": 0.8223844282238442,
+      "x": 0.24947698744769875,
+      "y": 0.7761557177615572,
       "uniqueID": "id-415",
       "ioValues": [
         {
@@ -205,8 +204,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.12447698744769875,
-      "y": 0.9099756690997567,
+      "x": 0.13284518828451883,
+      "y": 0.9537712895377128,
       "uniqueID": "id-424",
       "ioValues": [
         {
@@ -215,7 +214,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 2850
+          "ioValue": 2866
         },
         {
           "name": "yDist",
@@ -229,8 +228,8 @@
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.5423640167364017,
-      "y": 0.778588807785888,
+      "x": 0.49686192468619245,
+      "y": 0.732360097323601,
       "uniqueID": "id-430",
       "name": "Shrink Wrap",
       "ioValues": [
@@ -308,8 +307,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6166317991631799,
-      "y": 0.8759124087591241,
+      "x": 0.5852510460251046,
+      "y": 0.8710462287104623,
       "uniqueID": "id-441",
       "ioValues": [
         {
@@ -374,7 +373,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17438
+          "ioValue": 17449
         },
         {
           "name": "zDist",
@@ -390,7 +389,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 49860
+          "ioValue": 51850
         }
       ]
     },
@@ -434,7 +433,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 25000
+          "ioValue": 26013
         },
         {
           "name": "zDist",
