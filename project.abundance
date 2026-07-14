@@ -7,28 +7,23 @@
   "ioValues": [
     {
       "name": "Radie_for_rails",
-      "ioValue": 9000,
-      "currentEquation": "9000"
+      "ioValue": 9000
     },
     {
       "name": "Bottom_radie",
-      "ioValue": 35000,
-      "currentEquation": "35000"
+      "ioValue": 35000
     },
     {
       "name": "Bottom_cut",
-      "ioValue": 17500,
-      "currentEquation": "17500"
+      "ioValue": 17500
     },
     {
       "name": "Top_radie",
-      "ioValue": 35523,
-      "currentEquation": "35523"
+      "ioValue": 35523
     },
     {
       "name": "Top_cut",
-      "ioValue": 17800,
-      "currentEquation": "17800"
+      "ioValue": 17800
     }
   ],
   "topLevel": true,
@@ -522,6 +517,11 @@
   ],
   "allConnectors": [
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-8",
+      "ap2ID": "id-2"
+    },
+    {
       "ap2Name": "geometry1",
       "ap1ID": "id-270",
       "ap2ID": "id-280"
@@ -635,11 +635,6 @@
       "ap2Name": "retain",
       "ap1ID": "id-526",
       "ap2ID": "id-530"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-530",
-      "ap2ID": "id-2"
     },
     {
       "ap2Name": "diameter",
