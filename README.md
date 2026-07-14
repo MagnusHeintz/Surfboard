@@ -6,7 +6,7 @@
 
 ## Inputs
 
-- **Radie_for_rails** (undefined)
+- **Radie_for_rails** (number)
 - **Bottom_radie** (number)
 - **Bottom_cut** (number)
 - **Top_radie** (number)
