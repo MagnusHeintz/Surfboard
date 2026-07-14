@@ -11,19 +11,22 @@
     },
     {
       "name": "Bottom_radie",
-      "ioValue": 34997
+      "ioValue": 34880,
+      "currentEquation": "34880"
     },
     {
       "name": "Bottom_cut",
-      "ioValue": 17463
+      "ioValue": 17433
     },
     {
       "name": "Top_radie",
-      "ioValue": 35523
+      "ioValue": 35900,
+      "currentEquation": "35900"
     },
     {
       "name": "Top_cut",
-      "ioValue": 17815
+      "ioValue": 18000,
+      "currentEquation": "18000"
     }
   ],
   "topLevel": true,
@@ -327,7 +330,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 34997
+          "ioValue": 34880
         }
       ]
     },
@@ -371,7 +374,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17463
+          "ioValue": 17433
         },
         {
           "name": "zDist",
@@ -387,7 +390,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 35523
+          "ioValue": 35900
         }
       ]
     },
@@ -431,7 +434,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17815
+          "ioValue": 18000
         },
         {
           "name": "zDist",
@@ -517,8 +520,8 @@
     },
     {
       "atomType": "Intersection",
-      "x": 0.8017782426778243,
-      "y": 0.4403892944038929,
+      "x": 0.8075313807531381,
+      "y": 0.43795620437956206,
       "uniqueID": "id-625",
       "ioValues": [
         {
