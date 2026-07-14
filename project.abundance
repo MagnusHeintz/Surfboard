@@ -17,16 +17,18 @@
     },
     {
       "name": "Bottom_cut",
-      "ioValue": 17000,
-      "currentEquation": "17000"
+      "ioValue": 17500,
+      "currentEquation": "17500"
     },
     {
       "name": "Top_radie",
-      "ioValue": 10
+      "ioValue": 35500,
+      "currentEquation": "35500"
     },
     {
       "name": "Top_cut",
-      "ioValue": 10
+      "ioValue": 17800,
+      "currentEquation": "17800"
     }
   ],
   "topLevel": true,
@@ -45,8 +47,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.7594142259414226,
-      "y": 0.851581508515815,
+      "x": 0.7620292887029289,
+      "y": 0.8272506082725062,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -332,8 +334,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.559623430962343,
-      "y": 0.24574209245742093,
+      "x": 0.22175732217573224,
+      "y": 0.2871046228710462,
       "uniqueID": "id-445",
       "ioValues": [
         {
@@ -345,8 +347,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.645397489539749,
-      "y": 0.2530413625304136,
+      "x": 0.32426778242677823,
+      "y": 0.2773722627737226,
       "uniqueID": "id-448",
       "ioValues": [
         {
@@ -371,8 +373,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7316945606694562,
-      "y": 0.2822384428223844,
+      "x": 0.4314853556485356,
+      "y": 0.2773722627737226,
       "uniqueID": "id-454",
       "ioValues": [
         {
@@ -386,7 +388,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 17000
+          "ioValue": 17500
         },
         {
           "name": "zDist",
@@ -397,21 +399,21 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.5617154811715481,
-      "y": 0.07785888077858881,
+      "x": 0.22489539748953974,
+      "y": 0.09002433090024331,
       "uniqueID": "id-468",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10,
+          "ioValue": 35500,
           "currentEquation": "38000"
         }
       ]
     },
     {
       "atomType": "Rotate",
-      "x": 0.6422594142259415,
-      "y": 0.10948905109489052,
+      "x": 0.30020920502092047,
+      "y": 0.11678832116788321,
       "uniqueID": "id-471",
       "ioValues": [
         {
@@ -435,8 +437,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7306485355648537,
-      "y": 0.1362530413625304,
+      "x": 0.3885983263598326,
+      "y": 0.12408759124087591,
       "uniqueID": "id-477",
       "ioValues": [
         {
@@ -449,7 +451,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 10,
+          "ioValue": 17800,
           "currentEquation": "19080"
         },
         {
@@ -475,8 +477,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.8111924686192469,
-      "y": 0.1386861313868613,
+      "x": 0.4884937238493724,
+      "y": 0.09245742092457421,
       "uniqueID": "id-522",
       "ioValues": [
         {
@@ -492,8 +494,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.8070083682008368,
-      "y": 0.2944038929440389,
+      "x": 0.5104602510460251,
+      "y": 0.27007299270072993,
       "uniqueID": "id-526",
       "ioValues": [
         {
@@ -509,8 +511,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.8922594142259415,
-      "y": 0.121654501216545,
+      "x": 0.6019874476987448,
+      "y": 0.18004866180048662,
       "uniqueID": "id-530",
       "ioValues": [
         {
@@ -536,9 +538,30 @@
       "y": 0.22384428223844283,
       "uniqueID": "id-537",
       "name": "Top_cut"
+    },
+    {
+      "atomType": "Intersection",
+      "x": 0.743723849372385,
+      "y": 0.4038929440389294,
+      "uniqueID": "id-544",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-8",
+      "ap2ID": "id-544"
+    },
     {
       "ap2Name": "geometry1",
       "ap1ID": "id-270",
@@ -655,9 +678,9 @@
       "ap2ID": "id-530"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry1",
       "ap1ID": "id-530",
-      "ap2ID": "id-2"
+      "ap2ID": "id-544"
     },
     {
       "ap2Name": "diameter",
@@ -668,6 +691,11 @@
       "ap2Name": "yDist",
       "ap1ID": "id-537",
       "ap2ID": "id-477"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-544",
+      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
